@@ -32,11 +32,7 @@
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
-.masthead h1,
-.masthead .h1
-{font-size:4rem;
-  margin:0;padding:0
-}
+
 @media(min-width: 992px)
 {
   .masthead{height:100vh}
@@ -74,7 +70,11 @@ hr {
   color: inherit;
   background-color: currentColor;
   border: 0;
-  opacity: 0.25;
+  
+}
+/* changes */
+.object-cover{
+  object-fit: cover;
 }
 
 hr:not([size]) {
