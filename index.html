@@ -1,3 +1,7 @@
+<!-- developer : Farah AIT ELAHMADI -->
+<!-- bootstrap : V5.1 -->
+<!-- main color: #7E57C2 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,17 +11,12 @@
     <title>AIT ELAHMADI Farah - Portfolio</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="assets/fonts/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/css/main.css">
     <link rel="shortcut icon" href="assets/img/favicon-32x32.png" type="image/x-icon">
-    <style>
-      section{
-        padding: 60px 0;
-      }
-    </style>
-    
 </head>
 <body  data-bs-spy="scroll" data-bs-target="#navbar-example" >
     <!-- Start Navbar -->
-    <nav  class="navbar navbar-expand-md fixed-top navbar-light bg-white py-3 shadow-sm" >
+    <nav  class="navbar navbar-expand-md fixed-top navbar-light bg-white py-md-3 shadow-sm" >
         <div class="container-lg  ">
           <a class="navbar-brand " href="#"><span>Farah AIT ELAHMADI</span></a>
           <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#toggelMobileMenu" aria-controls="toggelMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +48,7 @@
     </nav>
     <!-- End Navbar -->
     <!-- Hero section -->
-          <section id="whoami " class="border" >
+          <section id="whoami"  >
             <div class="container-lg ">
                <div class="row  justify-content-between">
                    <div class="col-md-6  text-center text-md-start">
@@ -57,17 +56,17 @@
                           <span class="fs-5">👋</span>
                           Hi, Welcome There!
                         </h6>                        
-                        <p class="fs-1 fw-bold lh-1">
+                        <p class="fs-1 fw-bold lh-1 ">
                           I'm Farah AIT ELAHMADI
-                          <span class="bg-primary text-center text-md-start mt-1 ms-1 d-block " style="height:4px; width:40px; border: 0;"></span>
+                          <span class="bg-primary text-center text-md-start mt-1  d-block " style="height:4px; width:40px; border: 0;"></span>
                         </p>
                         <p class="lh-lg  fs-6 ">
                           20 years old, Full Stack Web Developer, graduated with a Bachelor's degree specialised in Web Programming And Technologies.
                           <br/>
                           I'm always looking for personal and professional self-improvement, looking for greater and bigger challenges, and for great opportunities of sharing and learning with the best.
                         </p>
-                        <a href="Skills" class="mt-3 btn btn-outline-primary py-2 px-4">Get In Touch</a>
-                        <a href="Resume" class="mt-3 ms-2 btn btn-primary py-2 px-4">View Resume</a>
+                        <a href="#skills" class="mt-lg-5 mt-3 btn btn-outline-primary py-2 px-4">Get In Touch</a>
+                        <a href="#resume" class="mt-lg-5 mt-3 ms-2 btn btn-primary py-2 px-4">View Resume</a>
                    </div>
                    <div class="col-md-6 col-lg-5  text-center d-none d-lg-block d-md-block ">
                         <img class="img-fluid" src="assets/img/Version control-pana.svg" alt="girl-code">
@@ -76,37 +75,83 @@
             </div>
           </section>
     <!-- End Hero section -->
-    <!-- Hero section -->
-    <section id="Skills" class="border-bottom bg-light" >
+    <!-- Skills section -->
+    <section id="skills" class="border bg-light " >
       <div class="container-lg ">
-         <div class="row  justify-content-between ">
-             <div class="col-md-6  text-center text-md-start">
-                  <h6 class="text-primary mb-1 mt-4">
-                    <span class="fs-5">👋</span>
-                    Hi, Welcome There!
-                  </h6>
-                  
-                  <p class="fs-1 fw-bold lh-1">
-                    I'm Farah AIT ELAHMADI
-                    <span class="bg-primary text-center text-md-start mt-1 ms-1 d-block " style="height:4px; width:40px; border: 0;"></span>
-                  </p>
-                  <p class="lh-lg  fs-6 ">
-                    20 years old, Full Stack Web Developer, graduated with a Bachelor's degree specialised in Web Programming And Technologies.
-                    <br/>
-                    I'm always looking for personal and professional self-improvement, looking for greater and bigger challenges, and for great opportunities of sharing and learning with the best.
-                  </p>
-                  <a href="Skills" class="mt-3 btn btn-outline-primary py-2 px-lg-4 ">Get In Touch</a>
-                  <a href="Resume" class="mt-3 ms-2 btn btn-primary py-2 px-lg-4">View Resume</a>
-             </div>
-             <div class="col-md-6 col-lg-5 text-center d-none d-lg-block d-md-block ">
-                  <img class="img-fluid" src="assets/img/Version control-pana.svg" alt="girl-code">
-             </div>
-         </div>
+        <div class="text-md-start text-center">
+          <p class="fs-2 lh-1">
+            Tech Stack
+            <span class="bg-primary text-center text-md-start mt-1 ms-1 d-block " style="height:4px; width:40px; border: 0;"></span>
+          </p>
+        </div>
+
+        <div class="row mt-5 align-items-center justify-content-between ">
+          <div class="col-6 col-md-3 col-xl-2 mb-3">
+            <div class="card">
+              <div class="card-body text-center py-4">
+                <img style="height: 3.5rem;width: 3.5rem;" src="./assets/img/Teck stacks/laravel-2.svg" alt="laravel icon">
+                <div class="fw-bold mt-3">Laravel </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-xl-2 mb-3">
+            <div class="card">
+              <div class="card-body text-center py-4">
+                <img style="height: 3.5rem;width: 3.5rem;" src="./assets/img/Teck stacks/vuejs-icon.svg" alt="VueJS icon">
+                <div class="fw-bold mt-3">VueJS</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-xl-2 mb-3">
+            <div class="card">
+              <div class="card-body text-center py-4">
+                <img style="height: 3.5rem;width: 3.5rem;" src="./assets/img/Teck stacks/java-icon.svg" alt="java icon">
+                <div class="fw-bold mt-3">JavaEE</div>
+              </div>
+            </div>
+          </div>  
+          <div class="col-6 col-md-3 col-xl-2 mb-3">
+            <div class="card">
+              <div class="card-body text-center py-4">
+                <img style="height: 3.5rem;width: 3.5rem;" src="./assets/img/Teck stacks/angular.svg" alt="angular icon">
+                <div class="fw-bold mt-3">Angular4</div>
+              </div>
+            </div>
+          </div>      
+        </div>
+
+        <div class="row  align-items-center justify-content-evenly">
+          <div class="col-6 col-md-3 col-xl-2 mb-3">
+            <div class="card">
+              <div class="card-body text-center py-4">
+                <img style="height: 3.5rem;width: 3.5rem;" src="./assets/img/Teck stacks/tailwindcss-icon.svg" alt="tailwind css icon">
+                <div class="fw-bold mt-3">Tailwind CSS</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-xl-2 mb-3">
+            <div class="card">
+              <div class="card-body text-center py-4">
+                <img style="height: 3.5rem;width: 3.5rem;" src="./assets/img/Teck stacks/bootstrap-4.svg" alt="bootstrap icon">
+                <div class="fw-bold mt-3">Bootstrap</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-xl-2 mb-3">
+            <div class="card">
+              <div class="card-body text-center py-4">
+                <img style="height: 3.5rem;width: 3.5rem;" src="./assets/img/Teck stacks/git-scm-icon.svg" alt="git icon">
+                <div class="fw-bold mt-3">Git/Github</div>
+              </div>
+            </div>
+          </div>       
+        </div>
+
       </div>
     </section>
-<!-- End Hero section -->
+<!-- End Skills section -->
    <script src="assets/bootstrap/js/bootstrap.min.js" ></script>
 </body>
 </html>
 
-<!-- main color: #7E57C2 -->
+
