@@ -4265,6 +4265,7 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+/* br 25 */
 .card {
   position: relative;
   display: flex;
@@ -4274,8 +4275,9 @@ textarea.form-control-lg {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border-radius: 0.75rem;
 }
+/*  */
 .card > hr {
   margin-right: 0;
   margin-left: 0;
