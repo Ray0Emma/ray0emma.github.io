@@ -13,7 +13,8 @@ section {
 .bar-primary{
   height:4px;
   width:40px;
-  border: 0;
+  border-radius: 5px;
+  transition: width 0.2s ease;
 }
 
 .myShadow {
@@ -37,4 +38,32 @@ section {
 
 .transition:hover{
   --tw-translate-y: -0.5rem;
+}
+
+.img-project {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  transition: all .2s;
+  -webkit-transition:all .2s; 
+  -moz-transition:all .2s;
+
+}
+
+.card:hover img.img-project{
+  
+  transform:scale(1.1) ;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  box-shadow: 0 0 5px -2px rgba(0,0,0,0.3);
+  /* transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1); */
+}
+
+.card:hover .bar-primary{
+  width: 70px;
+}
+a, a:hover {
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
 }
