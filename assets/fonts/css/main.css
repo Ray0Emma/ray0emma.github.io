@@ -40,15 +40,18 @@ section {
   --tw-translate-y: -0.5rem;
 }
 
-.img-project {
-  height: auto;
-  width: 100%;
+.img-project  {
+  min-height: 220px;
   object-fit: cover;
   position: relative;
   transition: all .2s;
   -webkit-transition:all .2s; 
   -moz-transition:all .2s;
 
+}
+.card-project {
+  border-radius: 1rem;
+  box-shadow: 8px 0px 0px rgb(6, 171, 248)
 }
 
 .card:hover img.img-project{
@@ -58,10 +61,15 @@ section {
   -moz-transform: scale(1.1);
   box-shadow: 0 0 5px -2px rgba(0,0,0,0.3);
   /* transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1); */
+  
 }
 
 .card:hover .bar-primary{
   width: 70px;
+}
+
+.card:hover h5{
+  color: #75a2f7;
 }
 a, a:hover {
 	text-decoration: none;
