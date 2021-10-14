@@ -22,6 +22,10 @@ section {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.card-tools img{
+  height: 3.5rem;
+  width: 3.5rem;
+}
 .transition{
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -51,9 +55,14 @@ section {
 }
 .card-project {
   border-radius: 1rem;
-  box-shadow: 8px 0px 0px rgb(6, 171, 248)
+  box-shadow: none;
 }
 
+@media screen and (min-width: 768px) {
+  .card-project {
+    box-shadow: 8px 0px 0px rgb(6, 171, 248);
+  }
+}
 .card:hover img.img-project{
   
   transform:scale(1.1) ;
@@ -74,4 +83,17 @@ section {
 a, a:hover {
 	text-decoration: none;
 	transition: color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #9b67df;
+  outline: 0;
+  box-shadow: none;
+}
+
+.btn.btn-primary:focus, .btn.btn-outline-primary:focus {
+  outline: 0;
+  box-shadow: none;
 }
