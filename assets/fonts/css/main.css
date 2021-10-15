@@ -10,6 +10,17 @@ section {
   padding: 60px 0;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@media (max-width: 768px){
+  .text-xl {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
 .bar-primary{
   height:4px;
   width:40px;
