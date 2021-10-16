@@ -1,7 +1,8 @@
 
 body {
   padding-top: 75px;
-  color: #2D4350;
+  color: #fff;
+  background-color: #111233;
   font-size: 1.1rem;
   font-family:   Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif, Courier, monospace;
 }
@@ -25,9 +26,16 @@ section {
   height:4px;
   width:40px;
   border-radius: 5px;
+  background: linear-gradient(to right,#a109d5,#d9147d);
   transition: width 0.2s ease;
 }
 
+.navbar-brand {
+  background-clip: text;
+  background: -webkit-linear-gradient(#8d05bb,#f8389e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .myShadow {
   --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -71,7 +79,7 @@ section {
 
 @media screen and (min-width: 768px) {
   .card-project {
-    box-shadow: 8px 0px 0px rgb(6, 171, 248);
+    box-shadow: 8px 0px 0px #1913249f;
   }
 }
 .card:hover img.img-project{
@@ -88,18 +96,14 @@ section {
   width: 70px;
 }
 
-.card:hover h5{
-  color: #75a2f7;
-}
-a, a:hover {
+a, a:hover{
 	text-decoration: none;
-	transition: color 0.3s ease-in-out;
+  color: #c540c5;
 }
 
-.form-control:focus {
-  color: #212529;
-  background-color: #fff;
-  border-color: #9b67df;
+.form-control:focus, .form-control {
+  color: #fff;
+  border-color: #7577a6;
   outline: 0;
   box-shadow: none;
 }
@@ -107,4 +111,55 @@ a, a:hover {
 .btn.btn-primary:focus, .btn.btn-outline-primary:focus {
   outline: 0;
   box-shadow: none;
+}
+
+.hire-me-btn {
+  color: #c540c5!important;
+  border-color: #c540c5;
+}
+
+ .btn-outline-primary {
+  color: #c540c5;
+  border-color: #c540c5;
+}
+.hire-me-btn:hover , .btn-outline-primary:hover {
+  color: #fff !important;
+  background: linear-gradient(to right,#8d05bb,#f8389e);
+  border-color: #622e69;
+}
+
+.btn-primary {
+  color: #fff;
+  background: linear-gradient(to right,#8d05bb,#f8389e);
+  border-color: #622e69;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #8155b9;
+  border-color: #8d05bb;
+}
+
+.text-primary {
+  color: #7577a6 !important;
+}
+
+.bg-primary {
+  background-color: #111233!important;
+}
+
+.bg-light {
+  background-color: #1d1e4f!important;
+}
+
+::selection {
+  background: #d8d9ffc5;
+  /* text-shadow: none; */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #7577a6;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+  color: #fff;
 }
