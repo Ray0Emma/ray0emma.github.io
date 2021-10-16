@@ -16,9 +16,9 @@ section {
   line-height: 1.75rem;
 }
 
-@media (max-width: 768px){
+@media (max-width:576px){
   .text-xl {
-    font-size: 0.875rem;
+    font-size: 0.74rem;
     line-height: 1.25rem;
   }
 }
