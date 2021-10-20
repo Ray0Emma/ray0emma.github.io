@@ -173,20 +173,20 @@ a, a:hover{
 
 /* width */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 3px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #0c0d24; 
+  background: #11123300; 
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #c540c5; 
+  background: #d8d7d8af;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #b339b3; 
+  background:#b339b3;
 }
