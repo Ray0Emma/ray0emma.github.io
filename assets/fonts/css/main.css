@@ -205,3 +205,6 @@ a, a:hover{
   height: 20px;
   border-radius: 26px 26px 0px 0px;
 }
+.contact-card img {
+  min-width: 300px;
+}
