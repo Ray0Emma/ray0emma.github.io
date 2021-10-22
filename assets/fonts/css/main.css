@@ -206,3 +206,8 @@ a:hover{
 .contact-card img {
   min-width: 300px;
 }
+
+img.cat-img {
+  min-width: 300px;
+  max-width: 300px;
+}
