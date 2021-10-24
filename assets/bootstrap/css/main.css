@@ -23,9 +23,10 @@ section {
   }
 }
 
-@media (max-width:576px){
+@media (max-width:761px){
   .brand-text {
-    font-size: 1.2rem;
+    width:30px;
+    height:30px;
   }
 }
 
