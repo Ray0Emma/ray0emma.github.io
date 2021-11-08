@@ -198,7 +198,7 @@ a:hover,a:focus{
   border-radius: 26px 26px 0px 0px;
 }
 .contact-card img {
-  min-width: 300px;
+  min-width: 18.75rem;
 }
 
 img.cat-img {
