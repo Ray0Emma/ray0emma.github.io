@@ -1,5 +1,7 @@
 <h1 align="center">
-   <img src="https://user-images.githubusercontent.com/70212296/139595629-525c7476-fcb1-4fd7-a15e-9785fd5dc4a2.png" alt="F_logo"/>
+   <a href="https://farahelahmadi.me">
+      <img src="https://user-images.githubusercontent.com/70212296/139595629-525c7476-fcb1-4fd7-a15e-9785fd5dc4a2.png" alt="F_logo"/>
+   </a>
 </h1>
 <p align="center"><i>My personal Website</i></p>
 
