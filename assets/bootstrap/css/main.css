@@ -197,8 +197,14 @@ a:hover,a:focus{
   height: 20px;
   border-radius: 26px 26px 0px 0px;
 }
+
+.navbar-brand img:not( :hover ){
+  transition: 0.9s;
+  transform: rotateY(360deg);
+}
+
 .contact-card img {
-  min-width: 46vh;
+  min-width: 300px;
 }
 
 img.cat-img {
