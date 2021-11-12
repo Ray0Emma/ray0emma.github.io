@@ -15,5 +15,9 @@
   <img src="https://user-images.githubusercontent.com/70212296/140622548-5a5f114c-7248-435f-8784-fc16d0c0dfab.png" alt="mobile"/>
 </p>
 
+<p align="center">
+   
+  [Page speed test](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Ffarahelahmadi.me%2F&tab=desktop)
+</p>
 
-[Page speed test](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Ffarahelahmadi.me%2F&tab=desktop)
+
