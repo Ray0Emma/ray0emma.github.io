@@ -5,6 +5,11 @@
 </h1>
 <p align="center"><i>My personal Website</i></p>
 
+## Demo
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/70212296/142404825-a4ddb7d1-5a69-442e-a479-c11b8dd6d576.gif" width="80%" alt="animated" />
+</p>
+
 ## Desktop
 <p align="center">
   <img src="https://user-images.githubusercontent.com/70212296/140622416-61ec9dc4-3243-4374-a968-ae45d8c252c3.png" alt="desktop"/>
