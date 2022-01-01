@@ -13,7 +13,7 @@
 
 ## Credits 
 
-- :art: Colors : [geekbalbla.com](https://github.com/DevC-Casa/geeksblabla.com)
+- :art: Colors : [geeksblabla.com](https://github.com/DevC-Casa/geeksblabla.com)
 - :bulb: Teck Stack idea : [Mouad Ziani](https://github.com/MouadZIANI/mouadziani.com)
 
 ## Tests
