@@ -21,20 +21,5 @@
 - Page speed test : [lighthouse](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Ffarahelahmadi.me%2F&tab=desktop).
 - Visual UI test : [lambdaTest](https://links.lambdatest.com/DBCYKV3EOT7JLWLTTC3RDRY6L9EYY4AUDF0ELL5QADE87B4LAO8K9P02UV94JAM2).
 
-<!-- ## Demo
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/70212296/142404825-a4ddb7d1-5a69-442e-a479-c11b8dd6d576.gif" width="80%" alt="animated" />
-</p> -->
-
-<!-- ## Desktop
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/70212296/140622416-61ec9dc4-3243-4374-a968-ae45d8c252c3.png" alt="desktop"/>
-</p>
-
-## Mobile
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/70212296/140622548-5a5f114c-7248-435f-8784-fc16d0c0dfab.png" alt="mobile"/>
-</p> -->
-
 
 
